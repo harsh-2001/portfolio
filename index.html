@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ab82700c17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                  <img src="images/logo.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB designer</p>
+                <h1> Hi ,I'm <span>Harsh</span><br> from INDIA
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                <p>I am Harsh from panipa(HARYANA).I Persued my bachelor's from chandigarh group of college landran mohali in computer science &engineering. I had done my Sec & Sr Sec from SD Sr Sec School Panipat </p>
+                <div class="tab-titleS">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                    <!--p class="tab-links" onclick="opentab('experience')">experience</p-->
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>designing web intrface</li>
+                        <li><span>Frontend</span><br>designing web intrface</li>
+                        <!--li><span>ui/ux</span><br>designing web/app intrface</li-->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Sec</span><br>74.8 %</li>
+                        <li><span>Sr Sec</span><br>71.8 %</li>
+                        <li><span>Under Graduate</span><br>76.4 %</li>
+                    </ul>
+                </div>
+                <!--div class="tab-contents" id ="experience">
+                    <ul>
+                        <li><span>10 </span><br>designing web/app intrface</li>
+                        <li><span>12</span><br>designing web/app intrface</li>
+                        <li><span>undr</span><br>designing web/app intrface</li>
+                    </ul>
+                </div-->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>web design</h2>
+                    <p> Web design is the process of creating visually appealing and user-friendly websites. It involves designing layouts, choosing colors, fonts, and images, optimizing for different devices, ensuring fast loading times, and focusing on a positive user experience. Effective web design considers aesthetics, usability, and functionality to engage visitors and achieve specific goals. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>ui/ux design</h2>
+                    <p>UI design focuses on the visual elements and interactive components of a digital interface. It involves selecting colors, fonts, buttons, icons, and arranging elements in a visually pleasing and functional way  UX design focuses on the overall experience users have while interacting with a product. It involves understanding user behavior, needs, and goals to design interfaces that are intuitive and enjoyable to use. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <!--div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>app design</h2>
+                    <p>dummy header-text</p>
+                    <a href="#">learn more</a>
+                </div-->
+            </div>
+        </div>
+    </div>
+    <!------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>E-commerce</h3>
+                        <p>This E-Commerce website is designed using Html ,CSS only is is the frontend Design<br>For View Click Link</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3> name2</h3>
+                        <p>This ngo website has many things to donate which are used in our day to day life such as food ,cloth , medicines , books etc <br> For View Click Link</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3> name3</h3>
+                        <p>about name3</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--a href="#" class="btn">see more</a-->
+        </div>
+    </div>
+<!----------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>Harshgrover2031@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7015675159</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name"required>
+                    <input type="text"name="email" placeholder="Your Email"required>
+                    <input type="message" name="message" placeholder="Your Message"required>
+                    <button type = "submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+         </div>
+     </div>
+     <div class="copyright">
+        <p>Made by harsh @ copyright</p>
+     </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){ 
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwhzzKddLAzdZqG7D_H5giEwzgjTqRM0XzS5fPC8yTSPQgk28WRxr_IsP0FQc8TZI9a9g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
